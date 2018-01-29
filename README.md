@@ -11,5 +11,6 @@ changing the name, description, poster img link, trailer link.
 - Add at the bottom of the entertainmnet_center.py in the movies list your movie or swap out the ones you 
 replaced.
 - fresh_tomatoes.open_movies_page(movies) will generate a new html file in the main directory
+- open the newly generated fresh_tomatoes.html in browser to see the movie trailer player
 
-Happy Movie Trailer-ing! :)
+Happy Trailer-ing! :)
