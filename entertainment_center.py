@@ -48,8 +48,6 @@ shawshank = media.Movie("Shawshank Redemption",
                         "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg",
                         "https://www.youtube.com/watch?v=6hB3S9bIaco")
 
-
-
 zootopia = media.Movie("Zootopia",
                        "A city of animals, a fox and bunny work together to solve a crime.",
                        "https://upload.wikimedia.org/wikipedia/en/e/ea/Zootopia.jpg",
@@ -60,10 +58,14 @@ wonder_woman = media.Movie("Wonder Woman",
                            "https://upload.wikimedia.org/wikipedia/en/e/ed/Wonder_Woman_%282017_film%29.jpg",
                            "https://www.youtube.com/watch?v=1Q8fG0TtVAY&t=4s")
 
+avengers_infinity_war = media.Movie("Avengers: Infinity War",
+                                    "Avengers and the marvel gang face their greatest threat",
+                                    "https://upload.wikimedia.org/wikipedia/en/9/90/Avengers_Infinity_War.jpg",
+                                    "https://www.youtube.com/watch?v=6ZfuNTqbHE8")
 
 
-movies = [disaster_artist, toy_story, get_out, red_sparrow, big_hero_6, black_panther, school_of_rock, moana, shawshank,
-          zootopia, wonder_woman]
+
+movies = [disaster_artist, toy_story, get_out, red_sparrow, big_hero_6, black_panther, school_of_rock, moana, shawshank, zootopia, wonder_woman, avengers_infinity_war]
 fresh_tomatoes.open_movies_page(movies)
 
 
