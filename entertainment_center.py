@@ -2,6 +2,11 @@ import fresh_tomatoes
 import media
 
 
+disaster_artist = media.Movie("Disaster Artist",
+                              "Making of the film The Room",
+                              "https://upload.wikimedia.org/wikipedia/en/c/c9/TheDisastorArtistTeaserPoster.jpg",
+                              "https://www.youtube.com/watch?v=sPSJYXi7BWA");
+
 toy_story = media.Movie("Toy Story",
                         "A story of a boy and his toys that come alive!",
                         "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
@@ -49,7 +54,7 @@ wonder_woman = media.Movie("Wonder Woman",
 
 
 
-movies = [toy_story, get_out, red_sparrow, black_panther, school_of_rock, moana, shawshank,
+movies = [disaster_artist, toy_story, get_out, red_sparrow, black_panther, school_of_rock, moana, shawshank,
           zootopia, wonder_woman]
 fresh_tomatoes.open_movies_page(movies)
 
