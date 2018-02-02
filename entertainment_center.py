@@ -63,9 +63,14 @@ avengers_infinity_war = media.Movie("Avengers: Infinity War",
                                     "https://upload.wikimedia.org/wikipedia/en/9/90/Avengers_Infinity_War.jpg",
                                     "https://www.youtube.com/watch?v=6ZfuNTqbHE8")
 
+wreck_it_ralph = media.Movie("Wreck It Ralph",
+                              "In video games, the bad guy gets his break",
+                              "https://upload.wikimedia.org/wikipedia/en/1/15/Wreckitralphposter.jpeg",
+                              "https://www.youtube.com/watch?v=87E6N7ToCxs")
 
 
-movies = [disaster_artist, toy_story, get_out, red_sparrow, big_hero_6, black_panther, school_of_rock, moana, shawshank, zootopia, wonder_woman, avengers_infinity_war]
+
+movies = [disaster_artist, toy_story, get_out, red_sparrow, big_hero_6, black_panther, school_of_rock, moana, shawshank, zootopia, wonder_woman, avengers_infinity_war, wreck_it_ralph]
 fresh_tomatoes.open_movies_page(movies)
 
 
